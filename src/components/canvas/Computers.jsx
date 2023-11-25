@@ -6,12 +6,12 @@ import CanvasLoader from '../Loader';
 
 const Lights = () => (
   <>
-    <hemisphereLight intensity={2} groundColor="black" />
+    <hemisphereLight intensity={1} groundColor="black" />
     <spotLight
       position={[-20, 5, 10]}
       angle={2}
       penumbra={1}
-      intensity={1000}
+      intensity={1}
       castShadow
       shadow-mapSize={1024}
     />
