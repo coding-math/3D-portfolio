@@ -1,11 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 import { styles } from '../styles';
 import { navLinks } from '../constants';
-import { logo, menu, close } from '../assets';
+import { menu, close } from '../assets';
 
-function Navbar() {
+const Navbar = () => {
   const [activate, setActivate] = useState('');
   const [toggle, setToggle] = useState(false);
 
@@ -20,9 +20,8 @@ function Navbar() {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
-          <p className="text-white text-[18px] font-bold cursor-pointer">
-            Matheus Silva
+          <p className="text-white text-[18px] font-bold cursor-pointer flex">
+            Matheus&nbsp;
             <span className="sm:block hidden">| Software Engineer</span>
           </p>
         </Link>
@@ -73,6 +72,6 @@ function Navbar() {
       </div>
     </nav>
   );
-}
+};
 
 export default Navbar;
