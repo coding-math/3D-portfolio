@@ -11,6 +11,11 @@
     "rules": {
       "jsx-a11y/click-events-have-key-events": "off",
       "jsx-a11y/no-noninteractive-element-interactions": "off",
-      "react/function-component-definition": "off"
+      "jsx-a11y/control-has-associated-label": "off",
+      "react/function-component-definition": "off",
+      "react/no-unknown-property": "off",
+      "linebreak-style": "off",
+      "react/prop-types": "off",
+      "import/prefer-default-export": "off"
     }
 }
