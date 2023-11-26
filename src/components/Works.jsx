@@ -10,10 +10,7 @@ import { fadeIn, textVariant } from '../utils/motion';
 const ProjectCard = ({
   index, name, description, tags, image, source_code,
 }) => (
-  <motion.div
-    variants={fadeIn('up', 'spring', 0.5 * index, 0.75)}
-    className="mx-auto"
-  >
+  <motion.div variants={fadeIn('up', 'spring', 0.5 * index, 0.75)}>
     <Tilt options={{ max: 45, scale: 1, speed: 450 }} className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full">
       <div className="relative w-full h-[230px]">
         <img
