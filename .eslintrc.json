@@ -12,14 +12,17 @@
       "jsx-a11y/click-events-have-key-events": "off",
       "jsx-a11y/no-noninteractive-element-interactions": "off",
       "jsx-a11y/control-has-associated-label": "off",
+      "jsx-a11y/no-static-element-interactions": "off",
       "react/function-component-definition": "off",
       "react/no-unknown-property": "off",
-      "linebreak-style": "off",
-      "react/prop-types": "off",
-      "import/prefer-default-export": "off",
-      "no-nested-ternary": "off",
+      "react/jsx-one-expression-per-line": "off",
       "react/jsx-props-no-spreading": "off",
       "react/react-in-jsx-scope": "off",
-      "react/no-array-index-key": "off"
+      "react/no-array-index-key": "off",
+      "react/prop-types": "off",
+      "import/prefer-default-export": "off",
+      "linebreak-style": "off",
+      "no-nested-ternary": "off",
+      "camelcase": "off"
     }
 }
