@@ -8,7 +8,7 @@ import { projects } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 
 const ProjectCard = ({
-  index, name, description, tags, image, source_code,
+  index, name, description, tags, image, source_code_link,
 }) => (
   <motion.div variants={fadeIn('up', 'spring', 0.5 * index, 0.75)}>
     <Tilt options={{ max: 45, scale: 1, speed: 450 }} className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full">
@@ -21,7 +21,7 @@ const ProjectCard = ({
 
         <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
           <div
-            onClick={() => window.open(source_code, '_blank')}
+            onClick={() => window.open(source_code_link, '_blank')}
             className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
           >
             <img src={github} alt="github" className="w-1/2 h-1/2 object-contain" />
@@ -58,7 +58,7 @@ const Works = () => (
       >
         Following projects showcases my skills and experience through real-world
         examples of my work. Each project is briefly described and contains
-        a link to the source code and live demo. It reflects my ability to solve
+        a link to the source code. It reflects my ability to solve
         problems and deliver high-quality software.
       </motion.p>
     </div>
