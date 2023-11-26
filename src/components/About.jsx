@@ -8,7 +8,7 @@ import { fadeIn, textVariant } from '../utils/motion';
 import { SectionWrapper } from '../hoc';
 
 const ServiceCard = ({ index, title, icon }) => (
-  <Tilt className="xs:w-[250px] w-full mx-auto">
+  <Tilt className="xs:w-[250px] w-full">
     <motion.div
       variants={fadeIn('right', 'spring', 0.75 * index, 0.75)}
       className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
