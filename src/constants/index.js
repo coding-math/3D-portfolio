@@ -172,7 +172,7 @@ const projects = [
       },
     ],
     image: cgprojects,
-    source_code_link: 'https://github.com/coding-math/computer-graphics-projects',
+    source_code_link: 'https://github.com/math-silva/computer-graphics-projects',
   },
   {
     name: 'YOLO - Parking Spot',
@@ -193,7 +193,7 @@ const projects = [
       },
     ],
     image: yolo,
-    source_code_link: 'https://github.com/coding-math/YOLO-Parking-Spot',
+    source_code_link: 'https://github.com/math-silva/YOLO-Parking-Spot',
   },
 ];
 
