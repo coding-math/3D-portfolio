@@ -43,7 +43,7 @@ const Navbar = () => {
             <img
               src={github}
               alt="github"
-              onClick={() => window.open('https://www.github.com/matheuxito', '_blank')}
+              onClick={() => window.open('https://www.github.com/coding-math', '_blank')}
               className="w-8 h-8 cursor-pointer opacity-80 hover:opacity-100"
             />
           </li>
@@ -77,7 +77,7 @@ const Navbar = () => {
               ))}
               <li key="github">
                 <div
-                  onClick={() => window.open('https://www.github.com/matheuxito', '_blank')}
+                  onClick={() => window.open('https://www.github.com/coding-math', '_blank')}
                   className="flex items-center gap-1 group cursor-pointer"
                 >
                   <img
@@ -85,7 +85,7 @@ const Navbar = () => {
                     alt="github"
                     className="w-8 h-8 opacity-80 group-hover:opacity-100"
                   />
-                  <p className="text-gray-300 group-hover:text-white text-sm font-semibold">/matheuxito</p>
+                  <p className="text-gray-300 group-hover:text-white text-sm font-semibold">/coding-math</p>
                 </div>
               </li>
             </ul>
